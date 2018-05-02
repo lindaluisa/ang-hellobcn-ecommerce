@@ -1,0 +1,16 @@
+.footer {
+  padding: 2rem;
+  color: #1b1b20;
+  background-color: $color-primary-dark;
+  font-family: 'Great Vibes';
+
+  &__container {
+    text-align: center;
+    font-size: 2rem;
+  }
+  &__container--element {
+    text-decoration: none;
+    color: #1b1b20;
+  }
+
+}

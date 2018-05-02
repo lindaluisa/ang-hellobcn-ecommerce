@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  color: $color-white;
+  padding: 2rem;
+}
+
+.heading-primary {
+  color: $color-white;
+  margin-bottom: 4rem;
+  
+  
+  &--main {
+    font-family: 'Great Vibes';
+    display: block;
+    font-size: 10.5rem;
+    font-weight: 700;
+    position: relative;
+  } 
+
+  &--sub {
+    font-family: 'Permanent Marker';
+    display: block;    
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  }
+}
