@@ -1,0 +1,41 @@
+.about-section {
+  height: 95vh;
+  background-image: linear-gradient(
+    to bottom left, 
+    rgba($color-black, 0.9),
+    rgba($color-primary-dark, 0.8)), 
+    url("./assets/images/dom.jpg");
+  background-size: cover;
+  background-position: top;
+
+  margin-bottom: 1rem;
+  position: relative;
+  
+  &__primary--main {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color-white;
+    font-family: $header-font;
+    font-size: $font-size-big;
+    font-weight: 700;
+    
+  }
+  
+  &__text {
+    color: $color-white;
+    width: 80vh;
+    font-size: 2rem;
+    padding: 2rem;
+    font-family: 'Lato';
+    text-align: center;
+    // border-radius: 10rem;
+    // box-shadow: 0 2.5rem 4rem rgba($color-black, .35);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+}
